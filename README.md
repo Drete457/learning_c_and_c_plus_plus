@@ -1,4 +1,4 @@
-# Reactjs Alpha Observatory Management System
+# Learning C and C++
 
 Responsive website for the Alpha Observatory project
 
