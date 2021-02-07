@@ -20,7 +20,7 @@ void addWord()
     {
         char newWord[WORD_SIZE];
 
-        printf("What is the new world?\n");
+        printf("What is the new word?\n");
         scanf(" %s", &newWord);
 
         //r+ is to read and write
@@ -35,11 +35,11 @@ void addWord()
         fscanf(f, "%d", &amount);
         amount++;
 
-        //vai por a seta do ficheiro no inicio.
+        //go to the arrow of the file at the beginning.
         fseek(f, 0, SEEK_SET);
         fprintf(f, "%d", amount);
 
-        //vai por a seta no final e escrever a nova palavra
+        //go by the arrow at the end and write the new word
         fseek(f, 0, SEEK_END);
         fprintf(f, "\n%s", newWord);
 
