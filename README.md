@@ -7,7 +7,7 @@ Responsive website for the Alpha Observatory project
 Learning C and C++
 
 ## Description
-to compile the games, go to the folder in the terminal and write gcc filename.c -o nomedese.exe.exe (windows) or .out (linux / macOs) 
+to compile the games, go to the folder in the terminal and write gcc filename.c -o nomedese.exe (windows) or .out (linux / macOs) 
 
 ## Cloning the Repository
 With Git and Node.js installed on your machine, choose location and clone repository, use this commands:
@@ -16,7 +16,7 @@ With Git and Node.js installed on your machine, choose location and clone reposi
 git https://github.com/Drete457/learning_c_and_c_plus_plus.git
 cd learning_c_and_c_plus_plus
 Choose a folder
-gcc filename.c -o nomedese.exe.exe (windows) or .out (linux / macOs)
+gcc filename.c -o nomedese.exe (windows) or .out (linux / macOs)
 (don't forget to have gcc installed)
 ```
 
