@@ -21,7 +21,8 @@ If you choose folder C, use this command to compile:
 gcc filename.c -o nomedese.exe (windows) or .out (linux / macOs)
 
 if you choose folder C++, use this command to copile:
-g++ filename.c -o nomedese.exe (windows) or .out (linux / macOs)
+g++ filename.c -o nomedese.exe (windows) or .out (linux / macOs) -stf=c++11
+exp: g++ filename.c -o nomedese.exe -stf=c++11
 
 (don't forget to have gcc installed)
 ```
