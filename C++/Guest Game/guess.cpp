@@ -11,7 +11,7 @@ int main()
     cout << "*      Welcome to our guessing game!     *" << endl;
     cout << "******************************************" << endl;
 
-    srand(time(0));
+    srand(time(NULL));
     const int SECRET_NUMBER = rand() % 100;
     double points = 1000.0;
     cout << SECRET_NUMBER << endl;
@@ -31,7 +31,7 @@ int main()
         numberOfTries = 10;
         break;
     default:
-        numberOfTries = 15;
+        numberOfTries = 5;
         break;
     }
 

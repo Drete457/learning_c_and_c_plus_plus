@@ -24,6 +24,9 @@ if you choose folder C++, use this command to copile:
 g++ filename.c -o nomedese.exe (windows) or .out (linux / macOs) -stf=c++11
 exp: g++ filename.c -o nomedese.exe -stf=c++11
 
+or in C++ you can use in your terminal:
+-make (name of the cpp file) (linux) or -mingw32-make (name of the cpp file) (windows)
+
 (don't forget to have gcc installed)
 ```
 
