@@ -99,7 +99,7 @@ void drawHangman()
         cout << " |      " << (errors >= head ? '(' : ' ') << (errors >= head ? '_' : ' ') << (errors >= head ? ')' : ' ') << endl;
         cout << " |      " << (errors >= arms ? '\\' : ' ') << (errors >= body ? '|' : ' ') << (errors >= arms ? '/' : ' ') << endl;
         cout << " |       " << (errors >= body ? '|' : ' ') << endl;
-        cout << " |       " << (errors >= legs ? '/' : ' ') << (errors >= legs ? '\\' : ' ') << endl;
+        cout << " |      " << (errors >= legs ? '/' : ' ') << (errors >= legs ? (char)39 : ' ') << (errors >= legs ? '\\' : ' ') << endl;
         cout << " |              " << endl;
         cout << "_|___           " << endl;
         cout << endl;
