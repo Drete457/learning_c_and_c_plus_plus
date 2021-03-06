@@ -36,10 +36,9 @@ If you want to make individual changes to the files and then add them to the gam
 Just run the command g++ -c *.cpp to generate all the translation units that the program will use.
 Then you can join everyone translate unit by doing g++ *.o -o  gamename.exe (windows) or .out (linux / macOs)
 
-Whenever you change a file, just make the g ++ -c name of that file.cpp and join all together by doing:
+Whenever you change a file, just make the g++ -c name of that file.cpp and join all together by doing:
 g++ *.o -o  gamename.exe (windows) or .out (linux / macOs)
 Compilation will be instant 
-
 
 IDE
 Linux - CodeLite, Website https://codelite.org
