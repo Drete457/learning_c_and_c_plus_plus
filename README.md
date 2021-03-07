@@ -44,6 +44,8 @@ IDE
 Linux - CodeLite, Website https://codelite.org
 MacOs - Xcode, Apple Store
 Windows - Visual Studio Community
+
+The "HangMan using IDE" folder was made using several advanced C ++ concepts, we can use the previous annotations to be compiled or else one of the IDE mentioned above.
 ```
 
 ## Tecnologies
