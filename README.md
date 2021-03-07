@@ -32,7 +32,9 @@ or in C++ you can use in your terminal:
 For the "HangMan Next Step project", you can use the commands above, or just use:
 g++ *.cpp -o  gamename.exe (windows) or .out (linux / macOs)
 
-If you want to make individual changes to the files and then add them to the game without having to compile the entire game again. 
+If you want to make individual changes to the files 
+and then add them to the game without having to compile the entire game again. 
+
 Just run the command g++ -c *.cpp to generate all the translation units that the program will use.
 Then you can join everyone translate unit by doing g++ *.o -o  gamename.exe (windows) or .out (linux / macOs)
 
@@ -45,7 +47,8 @@ Linux - CodeLite, Website https://codelite.org
 MacOs - Xcode, Apple Store
 Windows - Visual Studio Community
 
-The "HangMan using IDE" folder was made using several advanced C ++ concepts, we can use the previous annotations to be compiled or else one of the IDE mentioned above.
+The "HangMan using IDE" folder was made using several advanced C ++ concepts, 
+we can use the previous annotations to be compiled or else one of the IDE mentioned above.
 ```
 
 ## Tecnologies
